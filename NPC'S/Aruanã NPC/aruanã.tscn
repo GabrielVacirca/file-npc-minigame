@@ -1,0 +1,50 @@
+[gd_scene load_steps=7 format=3 uid="uid://b6hx40r370m21"]
+
+[ext_resource type="Script" uid="uid://cl6kmehaoegi2" path="res://NPC'S/Aruanã NPC/aruanã.gd" id="1_m0jil"]
+[ext_resource type="Texture2D" uid="uid://cs22vujn70jag" path="res://NPC'S/Aruanã NPC/Aruanã.png" id="2_yh4o7"]
+[ext_resource type="Texture2D" uid="uid://ctvspb1vvnqu5" path="res://NPC'S/Aruanã NPC/Aruanã_02.png" id="3_2n758"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rnf68"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_yh4o7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_2n758")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 0.5
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_l33me"]
+size = Vector2(64, 106)
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_oagi2"]
+radius = 70.0
+height = 140.0
+
+[node name="Aruanã_NPC" type="Node2D"]
+
+[node name="Aruanã" type="Node2D" parent="."]
+position = Vector2(373, 181)
+script = ExtResource("1_m0jil")
+
+[node name="texture" type="AnimatedSprite2D" parent="Aruanã"]
+scale = Vector2(0.343373, 0.343373)
+sprite_frames = SubResource("SpriteFrames_rnf68")
+animation = &"idle"
+frame_progress = 0.855611
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Aruanã"]
+shape = SubResource("RectangleShape2D_l33me")
+
+[node name="Area2D" type="Area2D" parent="Aruanã"]
+scale = Vector2(1.07182, 1.04609)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Aruanã/Area2D"]
+shape = SubResource("CapsuleShape2D_oagi2")
+
+[connection signal="body_entered" from="Aruanã/Area2D" to="Aruanã" method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Aruanã/Area2D" to="Aruanã" method="_on_area_2d_body_exited"]

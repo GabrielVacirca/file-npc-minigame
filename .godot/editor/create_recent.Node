@@ -1,0 +1,14 @@
+CanvasGroup
+Node2D
+CharacterBody2D
+Sprite2D
+CollisionShape2D
+Area2D
+ColorRect
+Control
+Label
+AnimatedSprite2D
+Panel
+CanvasLayer
+Node
+TileMapLayer

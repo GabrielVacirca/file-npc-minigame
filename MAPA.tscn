@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://bomj0oii8w6ju"]
+
+[ext_resource type="PackedScene" uid="uid://0spg5gln0h0v" path="res://NPC'S/npc2.tscn" id="1_uhube"]
+[ext_resource type="PackedScene" uid="uid://c05psmpm77xyp" path="res://PLAYER/Player.tscn" id="2_bsxyo"]
+[ext_resource type="PackedScene" uid="uid://orm5sntxqrt0" path="res://minigame coleta de lixo/lixo.tscn" id="3_bsxyo"]
+[ext_resource type="PackedScene" uid="uid://b6hx40r370m21" path="res://NPC'S/Aruanã NPC/aruanã.tscn" id="4_14pvv"]
+
+[node name="mapa" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("2_bsxyo")]
+position = Vector2(443, 142)
+scale = Vector2(0.995166, 0.995044)
+
+[node name="Lixo" parent="." instance=ExtResource("3_bsxyo")]
+position = Vector2(119, 417)
+
+[node name="NPC" parent="." instance=ExtResource("1_uhube")]
+
+[node name="Aruanã_NPC" parent="." instance=ExtResource("4_14pvv")]
+position = Vector2(494, 266)

@@ -1,0 +1,76 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1746239628
+hud_script.gd::GDScript/GDScript::2987736816155361312::1746151997::0::1::::<>CanvasGroup<><>0<>0<><>::
+MAPA.tscn::PackedScene/PackedScene::3394428873550612994::1746155257::0::1::::<><><>0<>0<><>::uid://0spg5gln0h0v::::res://NPC'S/npc2.tscn<>uid://c05psmpm77xyp::::res://PLAYER/Player.tscn<>uid://orm5sntxqrt0::::res://minigame coleta de lixo/lixo.tscn<>uid://b6hx40r370m21::::res://NPC'S/Aruanã NPC/aruanã.tscn
+::res://minigame coleta de lixo/::1746155257
+lixo.gd::GDScript/GDScript::7191489965178300067::1746053520::0::1::::<>Area2D<><>0<>0<><>::
+lixo.tscn::PackedScene/PackedScene::1018521376879231987::1746155257::0::1::::<><><>0<>0<><>::uid://dapu13ekc5n2j::::res://minigame coleta de lixo/lixo.gd<>uid://ctvybelpdh30x::::res://PNG'S/15cdf173-c2f0-43c5-9b9e-6057e5d4eb4f.jpg
+::res://MINIGAME REPLANTIO (progress)/::1746111456
+semente.gd::GDScript/GDScript::2440124611393624138::1745550122::0::1::::<>Area2D<><>0<>0<><>::
+semente.tscn::PackedScene/PackedScene::4308600227308531867::1746111456::0::1::::<><><>0<>0<><>::uid://ba1aq4gu3j1go::::res://MINIGAME REPLANTIO (progress)/semente.gd
+::res://MINIGAME REPLANTIO (progress)/NPC/::1746239578
+icon.svg::CompressedTexture2D/CompressedTexture2D::1831730122166841442::1744295386::1746111456::1::::<><><>0<>0<>864ac75d7a490f4448940c4c6d403ecd<>res://.godot/imported/icon.svg-6a6bc715e229e2395cc8acd8da2e5b05.ctex::
+idle.png::CompressedTexture2D/CompressedTexture2D::7256398206567264554::1744651087::1746111456::1::::<><><>0<>0<>d275a363857b47429b8cb1568cfed35b<>res://.godot/imported/idle.png-93b1d53ffe590dcef1f0140611b44375.ctex::
+::res://NPC'S/::1746155257
+npc2.tscn::PackedScene/PackedScene::1792802945666296315::1746155257::0::1::::<><><>0<>0<><>::uid://dtm7y4rlpxf5a::::res://PNG'S/NPC DANÇANDO/NPC ''DANÇANDO'' 1.png<>uid://dmsjhe8pwwpn8::::res://NPC'S/npc_dialog.gd<>uid://de5r6johj7jjh::::res://PNG'S/NPC DANÇANDO/NPC ''DANÇANDO'' 2.png<>uid://dt1o74o2xkdtk::::res://PNG'S/NPC DANÇANDO/NPC ''DANÇANDO'' 3.png
+npc_dialog.gd::GDScript/GDScript::8039246189584759751::1746155208::0::1::::<>Node2D<><>0<>0<><>::
+::res://NPC'S/Aruanã NPC/::1746155257
+aruanã.gd::GDScript/GDScript::5609543178160839427::1746155247::0::1::::<>Node2D<><>0<>0<><>::
+Aruanã.png::CompressedTexture2D/CompressedTexture2D::6093656677711755218::1746150566::1746150773::1::::<><><>0<>0<>462b48cb2b05418de6f14ebeff0fc243<>res://.godot/imported/Aruanã.png-55d914562cdff98e79a11d1cc1ee8f38.ctex::
+aruanã.tscn::PackedScene/PackedScene::4578175100268774760::1746155257::0::1::::<><><>0<>0<><>::uid://cl6kmehaoegi2::::res://NPC'S/Aruanã NPC/aruanã.gd<>uid://cs22vujn70jag::::res://NPC'S/Aruanã NPC/Aruanã.png<>uid://ctvspb1vvnqu5::::res://NPC'S/Aruanã NPC/Aruanã_02.png
+Aruanã_02.png::CompressedTexture2D/CompressedTexture2D::6150901115793444574::1746150566::1746150773::1::::<><><>0<>0<>4796d4f0271defce0f6d85687b4b6a3f<>res://.godot/imported/Aruanã_02.png-4c223628004b1e3adde567dd7f744c47.ctex::
+::res://NPC'S/HUD_NPC/::1746154066
+hud_npc's.tscn::PackedScene/PackedScene::952816593843559255::1746154066::0::1::::<><><>0<>0<><>::uid://bitjuaydexgya::::res://hud_script.gd
+::res://PLAYER/::1746154066
+player.gd::GDScript/GDScript::3026999822675149047::1746133542::0::1::::<>Node2D<><>0<>0<><>::
+Player.tscn::PackedScene/PackedScene::6590437344182131035::1746154066::0::1::::<><><>0<>0<><>::uid://bjekila1e242v::::res://PLAYER/player.gd<>uid://db7rgt1i0o21::::res://PNG'S/Cauê de Frente/Cauê.frente.png<>uid://duw1s2umhw5nl::::res://PNG'S/Andando para direita/Andando_direita_1.png<>uid://dsspqh45l3vom::::res://PNG'S/Andando para direita/Andando_direita_2.png<>uid://hsacxxn4m0ab::::res://PNG'S/Andando para direita/Andando_direita_3.png<>uid://cqbvgga1wbk4s::::res://PNG'S/Andando para direita/Andando_direita_4.png<>uid://cw3j8ekbbpi2u::::res://PNG'S/Andando para esquerda/Andando_esquerda_1.png<>uid://bldh40s2qabso::::res://PNG'S/Andando para esquerda/Andando_esquerda_2.png<>uid://biauy0qojwsx5::::res://PNG'S/Andando para esquerda/Andando_esquerda_3.png<>uid://dxp4awrbyduaa::::res://PNG'S/Andando para esquerda/Andando_esquerda_4.png<>uid://dg06jvfr668qc::::res://PNG'S/Costas Parado/Costas.png<>uid://d3c6fylv7risl::::res://PNG'S/Costas andando/Andando_de_Costas_1.png<>uid://pb8ew4e5kj3a::::res://PNG'S/Costas andando/Andando_de_Costas_2.png
+::res://PNG'S/::1745894905
+15cdf173-c2f0-43c5-9b9e-6057e5d4eb4f.jpg::CompressedTexture2D/CompressedTexture2D::6151240550736470625::1745894904::1745894905::1::::<><><>0<>0<>ad70c24eb0c47482885d968e03487bf7<>res://.godot/imported/15cdf173-c2f0-43c5-9b9e-6057e5d4eb4f.jpg-2f674a4216a59d28ed220776bbb82c87.ctex::
+::res://PNG'S/Andando para direita/::1744770158
+Andando_direita_1.png::CompressedTexture2D/CompressedTexture2D::8610067470113503581::1744770157::1744770158::1::::<><><>0<>0<>962bab747cd6c504b7976955964d5162<>res://.godot/imported/Andando_direita_1.png-b208f00447f75ddc8bb3206cc76c34e3.ctex::
+Andando_direita_2.png::CompressedTexture2D/CompressedTexture2D::8460759777572604108::1744770158::1744770158::1::::<><><>0<>0<>c98f9b0229c2c40bf6186f5ccd7ddd34<>res://.godot/imported/Andando_direita_2.png-9dbfbba23354751a624979ea2049b882.ctex::
+Andando_direita_3.png::CompressedTexture2D/CompressedTexture2D::528485520824582133::1744770158::1744770158::1::::<><><>0<>0<>db747e802e94c521d8b9aab42fa1dd19<>res://.godot/imported/Andando_direita_3.png-ad67e44cde522290b1afba4a873ed8a2.ctex::
+Andando_direita_4.png::CompressedTexture2D/CompressedTexture2D::5899213331311178300::1744770158::1744770158::1::::<><><>0<>0<>287847c424ba3325edf54aed574a1b0c<>res://.godot/imported/Andando_direita_4.png-29b86b2fda6d279259e197112483862e.ctex::
+::res://PNG'S/Andando para esquerda/::1744770158
+Andando_esquerda_1.png::CompressedTexture2D/CompressedTexture2D::6375404114259164274::1744770158::1744770158::1::::<><><>0<>0<>08cde4001b02744a5d7d83ccea41534e<>res://.godot/imported/Andando_esquerda_1.png-546b242747c679a1324e9fa76d790367.ctex::
+Andando_esquerda_2.png::CompressedTexture2D/CompressedTexture2D::3165169246084616534::1744770158::1744770158::1::::<><><>0<>0<>7b9a26c8c8fd92a462473161bf661259<>res://.godot/imported/Andando_esquerda_2.png-7a276f005e0b88588342ed251c8986da.ctex::
+Andando_esquerda_3.png::CompressedTexture2D/CompressedTexture2D::2949189970156040436::1744770158::1744770158::1::::<><><>0<>0<>703ddd1251d4a1f62495e8c50c858324<>res://.godot/imported/Andando_esquerda_3.png-4ed59b87b72cadbc3ec757bc93718932.ctex::
+Andando_esquerda_4.png::CompressedTexture2D/CompressedTexture2D::8806333095708198856::1744770158::1744770158::1::::<><><>0<>0<>2d9adde41a5bc437aa17bc46cefdeb0f<>res://.godot/imported/Andando_esquerda_4.png-aca751f7dda97f5fe3b62c3d657e4505.ctex::
+::res://PNG'S/Cauê de Frente/::1744770158
+Cauê.frente.png::CompressedTexture2D/CompressedTexture2D::214604556617463216::1744770157::1744770158::1::::<><><>0<>0<>77a753d287e4c19f04fe0e1c2ec4df12<>res://.godot/imported/Cauê.frente.png-512514e0ef1f130abc87c92440ee480e.ctex::
+::res://PNG'S/Costas andando/::1744770158
+Andando_de_Costas_1.png::CompressedTexture2D/CompressedTexture2D::9130570862748451063::1744770157::1744770158::1::::<><><>0<>0<>ce6d030e16e0a796f83b324926ea652e<>res://.godot/imported/Andando_de_Costas_1.png-1ef91e1dcee49d86ca94ec44983ddb81.ctex::
+Andando_de_Costas_2.png::CompressedTexture2D/CompressedTexture2D::1056909036796725836::1744770157::1744770158::1::::<><><>0<>0<>3e1e1c948f4bba317467ae6f5838d269<>res://.godot/imported/Andando_de_Costas_2.png-8e351ba12d04ff1c659a4bdce9b1a79f.ctex::
+::res://PNG'S/Costas Parado/::1744770158
+Costas.png::CompressedTexture2D/CompressedTexture2D::7633903967209357166::1744770157::1744770158::1::::<><><>0<>0<>c987c7658700b0e31d444fda194d5dcd<>res://.godot/imported/Costas.png-ce95c146d7285a739c471939f3277968.ctex::
+::res://PNG'S/Diagonais costas/::1744770158
+Diagonal_direita.png::CompressedTexture2D/CompressedTexture2D::8877473295720841493::1744770157::1744770158::1::::<><><>0<>0<>474fb5ff81650b5ac1d2191df6b737a5<>res://.godot/imported/Diagonal_direita.png-f0df0c87eabb68987cbe917f4318f88d.ctex::
+Diagonal_esquerda.png::CompressedTexture2D/CompressedTexture2D::6882066578542173682::1744770157::1744770158::1::::<><><>0<>0<>f631e4be79faea03b686ddb36dfe5b41<>res://.godot/imported/Diagonal_esquerda.png-5846690c3d67c7eeda96767620e47dc4.ctex::
+::res://PNG'S/NPC ANDANDO/::1744770027
+NPC ANDANDO 1.png::CompressedTexture2D/CompressedTexture2D::2726628377147878460::1744770027::1744770027::1::::<><><>0<>0<>4adcc33d8c7e4c6dee8425bdabb16c40<>res://.godot/imported/NPC ANDANDO 1.png-4833c30eb99f1bd3f3facc4ebc893a22.ctex::
+NPC ANDANDO 2.png::CompressedTexture2D/CompressedTexture2D::1450220872161953648::1744770027::1744770027::1::::<><><>0<>0<>3cc48b30b3d4fc2e19afe920815ca10f<>res://.godot/imported/NPC ANDANDO 2.png-65e08a29d3160da6a6ed520c9a8b6d70.ctex::
+NPC ANDANDO 3.png::CompressedTexture2D/CompressedTexture2D::3045609933243584531::1744770027::1744770027::1::::<><><>0<>0<>7a06b74f087fd0edcc526e15947437cf<>res://.godot/imported/NPC ANDANDO 3.png-34a85ca5a3d9f7e1e0e35a6a0c24cb56.ctex::
+::res://PNG'S/NPC ANDANDO DE FRENTE/::1744770027
+NPC ANDANDO DE FRENTE 1.png::CompressedTexture2D/CompressedTexture2D::1024499056009086228::1744770027::1744770027::1::::<><><>0<>0<>ab0117ae8b4925187370766a65d00104<>res://.godot/imported/NPC ANDANDO DE FRENTE 1.png-fc40949c808191fb2f96794cbb483d93.ctex::
+NPC ANDANDO DE FRENTE 2.png::CompressedTexture2D/CompressedTexture2D::5384270319304940675::1744770027::1744770027::1::::<><><>0<>0<>d82c81344a9c41ae527f8474f6e55016<>res://.godot/imported/NPC ANDANDO DE FRENTE 2.png-32f6a12556e8ecd26e8c96941446c478.ctex::
+NPC ANDANDO DE FRENTE 3.png::CompressedTexture2D/CompressedTexture2D::4702353602272139693::1744770027::1744770027::1::::<><><>0<>0<>122d1e5f9fa488e9d4bab768b6776e96<>res://.godot/imported/NPC ANDANDO DE FRENTE 3.png-b810af88de8cb5c78ed648af439facd9.ctex::
+NPC ANDANDO DE FRENTE 4.png::CompressedTexture2D/CompressedTexture2D::3867334340353953596::1744770027::1744770027::1::::<><><>0<>0<>4dcef65088ea4a0cd660b2c18e2349e9<>res://.godot/imported/NPC ANDANDO DE FRENTE 4.png-642ed435ded42468880dafb9c935d545.ctex::
+::res://PNG'S/NPC DANÇANDO/::1744770027
+NPC ''DANÇANDO'' 1.png::CompressedTexture2D/CompressedTexture2D::8519609966032454872::1744770027::1744770027::1::::<><><>0<>0<>9068f951b8173e93743c3d575578815b<>res://.godot/imported/NPC ''DANÇANDO'' 1.png-22d70ab920d6174cf46c136fb7df8491.ctex::
+NPC ''DANÇANDO'' 2.png::CompressedTexture2D/CompressedTexture2D::7503036801410064205::1744770027::1744770027::1::::<><><>0<>0<>f759b6e63ef33f682cf79e716ccfa220<>res://.godot/imported/NPC ''DANÇANDO'' 2.png-774f2422c10e65e506236f9656ce718b.ctex::
+NPC ''DANÇANDO'' 3.png::CompressedTexture2D/CompressedTexture2D::8547432631173465148::1744770027::1744770027::1::::<><><>0<>0<>566876416f4d266fa1bda21c7cf6c4f9<>res://.godot/imported/NPC ''DANÇANDO'' 3.png-e0cc36857fc47dec61177dab0dbf8fe0.ctex::
+::res://PNG'S/NPC VIRANDO PARA FRENTE/::1744770027
+NPC VIRANDO PARA FRENTE 1.png::CompressedTexture2D/CompressedTexture2D::8594206917681562327::1744770027::1744770027::1::::<><><>0<>0<>cf7e41d3633dc745b1473002a5c752bd<>res://.godot/imported/NPC VIRANDO PARA FRENTE 1.png-7f3969c5caeef6260b312665946267db.ctex::
+NPC VIRANDO PARA FRENTE 2.png::CompressedTexture2D/CompressedTexture2D::2208492007541686262::1744770027::1744770027::1::::<><><>0<>0<>af93d6e5fd065ed4a4213b15e8db4faa<>res://.godot/imported/NPC VIRANDO PARA FRENTE 2.png-41e3b828e1856eb3036046665eb44d87.ctex::
+NPC VIRANDO PARA FRENTE 3.png::CompressedTexture2D/CompressedTexture2D::391711855491857070::1744770027::1744770027::1::::<><><>0<>0<>16968c703fd07bb9795fa71a0f326893<>res://.godot/imported/NPC VIRANDO PARA FRENTE 3.png-ea171f3212b0dad63c0240de5f04474e.ctex::
+::res://PNG'S/NPCs/::1744769946
+NPC 1.png::CompressedTexture2D/CompressedTexture2D::7459926352927605698::1744769945::1744769946::1::::<><><>0<>0<>a2b76290e071ed0c96ab7b851239b7a1<>res://.godot/imported/NPC 1.png-56fee7f19e9a0f2c86856e34370429c7.ctex::
+NPC 2.png::CompressedTexture2D/CompressedTexture2D::6785339773325315924::1744769945::1744769946::1::::<><><>0<>0<>9cb658e116d8154d5cb06222b8cb45f3<>res://.godot/imported/NPC 2.png-1a536c4c599177e56fce0795ea0b9c0e.ctex::
+NPC 3.png::CompressedTexture2D/CompressedTexture2D::7573213630606798527::1744769945::1744769946::1::::<><><>0<>0<>3723283032a48d54617f0382163140bd<>res://.godot/imported/NPC 3.png-e2a580076f868f46938c3ddd5ff90a41.ctex::
+NPC 4.png::CompressedTexture2D/CompressedTexture2D::1009877517165230704::1744769945::1744769946::1::::<><><>0<>0<>d38770a487b2f07a67e32cf9b0b43107<>res://.godot/imported/NPC 4.png-41c3f21aa22854a7e2b9a51ec44c4bc2.ctex::
+NPC 5.png::CompressedTexture2D/CompressedTexture2D::9173159377402685015::1744769945::1744769946::1::::<><><>0<>0<>e140e255d2894c885c9ee74843d1aa2c<>res://.godot/imported/NPC 5.png-45273c16574090d654c4f9582e74a2a3.ctex::
+NPC 6.png::CompressedTexture2D/CompressedTexture2D::8665323368988805788::1744769945::1744769946::1::::<><><>0<>0<>b7465342152d4f4f0f7985f39908a96e<>res://.godot/imported/NPC 6.png-7f2fdb8a004c866c30034d34c6829d71.ctex::
+NPC CRIANÇA.png::CompressedTexture2D/CompressedTexture2D::1783637649281134388::1744769945::1744769946::1::::<><><>0<>0<>863a8a5d9c069b85c4283c8881e4c680<>res://.godot/imported/NPC CRIANÇA.png-b637b88d894fa00b22c93ba13f536bed.ctex::
+::res://PNG'S/Parado Esquerda e direita/::1744770158
+Parado_direita.png::CompressedTexture2D/CompressedTexture2D::1757963010892576846::1744770158::1744770158::1::::<><><>0<>0<>180a60bd1e573c689c44e1d3f6f6d17e<>res://.godot/imported/Parado_direita.png-9512e05ad7d9ddcbaf272b695d9c3275.ctex::
+Parado_esquerda.png::CompressedTexture2D/CompressedTexture2D::2718120073971912936::1744770158::1744770158::1::::<><><>0<>0<>f26f45f99554d8ee68dafa4e900c97ac<>res://.godot/imported/Parado_esquerda.png-2901755304bfe43b5ee5373d394281f7.ctex::

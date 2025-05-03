@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://orm5sntxqrt0"]
+
+[ext_resource type="Script" uid="uid://dapu13ekc5n2j" path="res://minigame coleta de lixo/lixo.gd" id="1_il74l"]
+[ext_resource type="Texture2D" uid="uid://ctvybelpdh30x" path="res://PNG'S/15cdf173-c2f0-43c5-9b9e-6057e5d4eb4f.jpg" id="2_l0mhw"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_sgqar"]
+radius = 15.5435
+
+[node name="lixo" type="Area2D" groups=["lixo"]]
+scale = Vector2(5.04, 5.04)
+script = ExtResource("1_il74l")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_sgqar")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.004, 0.0044)
+texture = ExtResource("2_l0mhw")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

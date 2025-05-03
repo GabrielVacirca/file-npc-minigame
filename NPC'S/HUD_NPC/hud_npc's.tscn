@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=3 uid="uid://nts0rdvojke6"]
+
+[ext_resource type="Script" uid="uid://bitjuaydexgya" path="res://hud_script.gd" id="1_17srg"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_fe6f2"]
+font_size = 14
+outline_size = 1
+outline_color = Color(0, 0, 0, 1)
+shadow_size = 4
+shadow_color = Color(0, 0, 0, 0.745098)
+
+[node name="CanvasGroup" type="CanvasGroup"]
+script = ExtResource("1_17srg")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 367.0
+offset_top = 525.0
+offset_right = 367.0
+offset_bottom = 645.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = -20.0
+label_settings = SubResource("LabelSettings_fe6f2")
+
+[node name="back" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 50.0
+scale = Vector2(10.44, 1)
+color = Color(0.0313726, 0.0313726, 0.0313726, 0.517647)
