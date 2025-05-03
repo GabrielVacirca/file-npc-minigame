@@ -6,8 +6,10 @@ extends Node2D
 
 var hud_scene = preload("res://NPC'S/HUD_NPC/hud_npc's.tscn")
 var player_in_area: bool = false   #quando o player entrar na area a mensagem vai estar invísivel
+var esperando_resposta = false # verificar se estamos esperando resposta de sim ou nã0
 var dialog = [       #array para dialogo [ escrever as coisas por aqui]
 	"Olá, tudo bem?",
+	"Você precisa de ajuda?" 
 	
 ]
 #animacao dialogo e bla bla
@@ -25,24 +27,26 @@ func _ready():
 
 func _unhandled_input(_event):
 	if player_in_area and Input.is_action_just_pressed("falar") and not i_animating:
+		if esperando_resposta: #esperando pela resposta de sim ou não
+			return # nao faz nada pq ainda ta esperando a resposta
+		
 		if dialog_i < dialog.size(): # verifica se tem falas no array
 			i_animating = true
 			hud.show_dialog_ui(true)
-			
 			await animate_text(dialog[dialog_i], hud.get_label())  #mostra a fala
 			dialog_i += 1 #se tiver mais falas no array, vai avançar no clique
 			i_animating = false
 		
+		if dialog_i == 2: #ajustar conforme a posicao do sim e do nao no array
+			show_choice() #exibe os botoes
+			return #impede o avanco do dialogo até a resposta
+		
+		
+		
 		else: # se chega no final e
 			hud.show_dialog_ui(false)
 			dialog_i = 0 #reseta o label e comeca tudo denovo
-			
-			
-			
-			
-			
-			
-		
+
 
 func animate_text(full_text: String, label_node: Label, speed := 0.05) -> void: #animação do texto
 	label_node.text = "" #vai limpar o texto do label antes de começar a animação
@@ -51,9 +55,29 @@ func animate_text(full_text: String, label_node: Label, speed := 0.05) -> void: 
 		await get_tree().create_timer(speed).timeout #espera o tempo antes de mostrar a próxima letra
 		
 
+func show_choice():
+	#mfuncao que mostra os botoes de escolha
+	hud.show_yes_no_buttons(true)
+	#DA PARA ADICONAR ANIMACAO NOS BOTÕES
+	esperando_resposta = true
 
+
+func on_choice_yes():
+	#quando o jogador escolhe sim
+	hud.show_dialog_ui(false)
+	print("escolheu sim")
+	#continue o dialogo
+	esperando_resposta = false #libera a resposta
+	dialog_i = 3 # reseta o dialogo
+	hud.get_label().text = "Você pediu ajuda!"
 	
-
+func on_choice_no():
+	#quando o jogador escolhe nao
+	hud.show_dialog_ui(false)
+	print("escolheu nao")
+	esperando_resposta = false #libera o dialogo
+	dialog_i = 0
+	hud.get_label().text = "Você recusou ajuda."
 
 
 	

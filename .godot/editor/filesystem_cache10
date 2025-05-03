@@ -1,7 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1746239628
+::res://::1746241338
 hud_script.gd::GDScript/GDScript::2987736816155361312::1746151997::0::1::::<>CanvasGroup<><>0<>0<><>::
-MAPA.tscn::PackedScene/PackedScene::3394428873550612994::1746155257::0::1::::<><><>0<>0<><>::uid://0spg5gln0h0v::::res://NPC'S/npc2.tscn<>uid://c05psmpm77xyp::::res://PLAYER/Player.tscn<>uid://orm5sntxqrt0::::res://minigame coleta de lixo/lixo.tscn<>uid://b6hx40r370m21::::res://NPC'S/Aruanã NPC/aruanã.tscn
+MAPA.tscn::PackedScene::3394428873550612994::1746239652::0::1::::<><><>0<>0<><>::uid://0spg5gln0h0v::::res://NPC'S/npc2.tscn<>uid://c05psmpm77xyp::::res://PLAYER/Player.tscn<>uid://orm5sntxqrt0::::res://minigame coleta de lixo/lixo.tscn<>uid://b6hx40r370m21::::res://NPC'S/Aruanã NPC/aruanã.tscn
+README.md::TextFile::-1::1746241106::0::1::::<><><>0<>0<><>::
 ::res://minigame coleta de lixo/::1746155257
 lixo.gd::GDScript/GDScript::7191489965178300067::1746053520::0::1::::<>Area2D<><>0<>0<><>::
 lixo.tscn::PackedScene/PackedScene::1018521376879231987::1746155257::0::1::::<><><>0<>0<><>::uid://dapu13ekc5n2j::::res://minigame coleta de lixo/lixo.gd<>uid://ctvybelpdh30x::::res://PNG'S/15cdf173-c2f0-43c5-9b9e-6057e5d4eb4f.jpg
@@ -11,8 +12,8 @@ semente.tscn::PackedScene/PackedScene::4308600227308531867::1746111456::0::1::::
 ::res://MINIGAME REPLANTIO (progress)/NPC/::1746239578
 icon.svg::CompressedTexture2D/CompressedTexture2D::1831730122166841442::1744295386::1746111456::1::::<><><>0<>0<>864ac75d7a490f4448940c4c6d403ecd<>res://.godot/imported/icon.svg-6a6bc715e229e2395cc8acd8da2e5b05.ctex::
 idle.png::CompressedTexture2D/CompressedTexture2D::7256398206567264554::1744651087::1746111456::1::::<><><>0<>0<>d275a363857b47429b8cb1568cfed35b<>res://.godot/imported/idle.png-93b1d53ffe590dcef1f0140611b44375.ctex::
-::res://NPC'S/::1746155257
-npc2.tscn::PackedScene/PackedScene::1792802945666296315::1746155257::0::1::::<><><>0<>0<><>::uid://dtm7y4rlpxf5a::::res://PNG'S/NPC DANÇANDO/NPC ''DANÇANDO'' 1.png<>uid://dmsjhe8pwwpn8::::res://NPC'S/npc_dialog.gd<>uid://de5r6johj7jjh::::res://PNG'S/NPC DANÇANDO/NPC ''DANÇANDO'' 2.png<>uid://dt1o74o2xkdtk::::res://PNG'S/NPC DANÇANDO/NPC ''DANÇANDO'' 3.png
+::res://NPC'S/::1746239652
+npc2.tscn::PackedScene::1792802945666296315::1746239652::0::1::::<><><>0<>0<><>::uid://dtm7y4rlpxf5a::::res://PNG'S/NPC DANÇANDO/NPC ''DANÇANDO'' 1.png<>uid://dmsjhe8pwwpn8::::res://NPC'S/npc_dialog.gd<>uid://de5r6johj7jjh::::res://PNG'S/NPC DANÇANDO/NPC ''DANÇANDO'' 2.png<>uid://dt1o74o2xkdtk::::res://PNG'S/NPC DANÇANDO/NPC ''DANÇANDO'' 3.png
 npc_dialog.gd::GDScript/GDScript::8039246189584759751::1746155208::0::1::::<>Node2D<><>0<>0<><>::
 ::res://NPC'S/Aruanã NPC/::1746155257
 aruanã.gd::GDScript/GDScript::5609543178160839427::1746155247::0::1::::<>Node2D<><>0<>0<><>::
