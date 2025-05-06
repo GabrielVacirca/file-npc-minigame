@@ -4,7 +4,7 @@ extends Node2D
 @onready var texture: AnimatedSprite2D = $texture
 
 
-var hud_scene = preload("res://NPC'S/HUD_NPC/hud_npc's.tscn")
+var hud_scene = preload("res://NPCS/HUD_NPC/hud_npcs.tscn")
 var player_in_area: bool = false   #quando o player entrar na area a mensagem vai estar invísivel
 var dialog = [       #array para dialogo [ escrever as coisas por aqui]
 	"Olá, tudo bem?",

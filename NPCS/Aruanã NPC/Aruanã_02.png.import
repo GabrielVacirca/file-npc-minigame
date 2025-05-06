@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cs22vujn70jag"
-path="res://.godot/imported/Aruanã.png-55d914562cdff98e79a11d1cc1ee8f38.ctex"
+uid="uid://ctvspb1vvnqu5"
+path="res://.godot/imported/Aruanã_02.png-37215c2229b96f517553b8a2c0191cf4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://NPC'S/Aruanã NPC/Aruanã.png"
-dest_files=["res://.godot/imported/Aruanã.png-55d914562cdff98e79a11d1cc1ee8f38.ctex"]
+source_file="res://NPCS/Aruanã NPC/Aruanã_02.png"
+dest_files=["res://.godot/imported/Aruanã_02.png-37215c2229b96f517553b8a2c0191cf4.ctex"]
 
 [params]
 

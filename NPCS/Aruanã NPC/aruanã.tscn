@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://b6hx40r370m21"]
 
-[ext_resource type="Script" uid="uid://cl6kmehaoegi2" path="res://NPC'S/Aruanã NPC/aruanã.gd" id="1_m0jil"]
-[ext_resource type="Texture2D" uid="uid://cs22vujn70jag" path="res://NPC'S/Aruanã NPC/Aruanã.png" id="2_yh4o7"]
-[ext_resource type="Texture2D" uid="uid://ctvspb1vvnqu5" path="res://NPC'S/Aruanã NPC/Aruanã_02.png" id="3_2n758"]
+[ext_resource type="Script" uid="uid://bg4gsw1y0mehu" path="res://NPCS/Aruanã NPC/aruanã.gd" id="1_m0jil"]
+[ext_resource type="Texture2D" uid="uid://cs22vujn70jag" path="res://NPCS/Aruanã NPC/Aruanã.png" id="2_yh4o7"]
+[ext_resource type="Texture2D" uid="uid://ctvspb1vvnqu5" path="res://NPCS/Aruanã NPC/Aruanã_02.png" id="3_2n758"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_rnf68"]
 animations = [{

@@ -1,0 +1,70 @@
+[gd_scene load_steps=2 format=3 uid="uid://ck3du3pbnyp6q"]
+
+[sub_resource type="GDScript" id="GDScript_uchyk"]
+script/source = "extends Control
+
+@onready var texto_chefe = $TextoChefe
+@onready var botoes = $BotoesEscolha
+
+var falas = [
+	\"O rio Javaé vem enfrentando diversos problemas com os dejetos jogados nele pela empresa Eco Império.\",
+	\"Isso está causando a morte de inúmeros peixes, problemas de saúde na população que usa a água desses rios para consumo, e deixando a água suja em vários locais.\",
+	\"Você deseja ajudar a resolver esse problema?\"
+]
+
+var fala_atual = 0
+var pode_avancar = true
+
+func _ready():
+	botoes.visible = false
+	mostrar_proxima_fala()
+
+func mostrar_proxima_fala():
+	if fala_atual < falas.size():
+		texto_chefe.text = falas[fala_atual]
+		fala_atual += 1
+	else:
+		botoes.visible = true
+
+func _input(event):
+	if event.is_action_pressed(\"ui_accept\") and pode_avancar:
+		mostrar_proxima_fala()
+"
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = SubResource("GDScript_uchyk")
+
+[node name="TextoChefe" type="Label" parent="."]
+layout_mode = 0
+offset_right = 1143.0
+offset_bottom = 644.0
+vertical_alignment = 1
+autowrap_mode = 1
+justification_flags = 139
+
+[node name="ElementosVisuais" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 264.0
+offset_top = 110.0
+offset_right = 542.0
+offset_bottom = 185.0
+
+[node name="Final_ruim" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="BotaoSim" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="BotaoNao" type="Button" parent="HBoxContainer"]
+layout_mode = 2

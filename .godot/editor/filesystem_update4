@@ -1,3 +1,6 @@
+res://control.tscn
+res://NPCS/HUD_NPC/hud_npcs.tscn
 res://MAPA.tscn
-res://NPC'S/Aruanã NPC/aruanã.gd
-res://NPC'S/npc2.tscn
+res://NPCS/Aruanã NPC/aruanã.tscn
+res://NPCS/Aruanã NPC/aruanã.gd
+res://hud_script.gd

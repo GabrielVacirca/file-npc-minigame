@@ -1,27 +1,31 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1746241338
-hud_script.gd::GDScript/GDScript::2987736816155361312::1746151997::0::1::::<>CanvasGroup<><>0<>0<><>::
-MAPA.tscn::PackedScene::3394428873550612994::1746239652::0::1::::<><><>0<>0<><>::uid://0spg5gln0h0v::::res://NPC'S/npc2.tscn<>uid://c05psmpm77xyp::::res://PLAYER/Player.tscn<>uid://orm5sntxqrt0::::res://minigame coleta de lixo/lixo.tscn<>uid://b6hx40r370m21::::res://NPC'S/Aruanã NPC/aruanã.tscn
-README.md::TextFile::-1::1746241106::0::1::::<><><>0<>0<><>::
-::res://minigame coleta de lixo/::1746155257
+::res://::1746500704
+control.tscn::PackedScene::5532751741626236762::1746500418::0::1::::<><><>0<>0<><>::
+hud_script.gd::GDScript::2987736816155361312::1746497356::0::1::::<>CanvasGroup<><>0<>0<><>::
+MAPA.tscn::PackedScene::3394428873550612994::1746500419::0::1::::<><><>0<>0<><>::uid://c05psmpm77xyp::::res://PLAYER/Player.tscn<>uid://b6hx40r370m21::::res://NPCS/Aruanã NPC/aruanã.tscn
+README.md::TextFile/TextFile::-1::1746241106::0::1::::<><><>0<>0<><>::
+::res://Dialogbox/::1746500704
+dialog_box.gd::GDScript::2828131570241904153::1746500704::0::1::::DialogBox<>Control<>res://addons/Godot-4-Addon-DialogBox/Dialogbox/icon.png<>0<>1<><>::
+icon.png::CompressedTexture2D::2870798907985605207::1746500704::1746500705::1::::<><><>0<>0<>85902baa26a611f1649fb870503221de<>res://.godot/imported/icon.png-8ffb88e9c0fb6c4fab4824dd2e2d6538.ctex::
+::res://Dialogbox/Resources/::1746500704
+DialogueBranchV.gd::GDScript::750954055861112076::1746500704::0::1::::DialogueBranchVariant<>Resource<><>0<>1<><>::
+DialoguesFaces.gd::GDScript::6591604462815494612::1746500704::0::1::::DialoguesFaces<>Resource<><>0<>1<><>::
+DialoguesLines.gd::GDScript::6859710220521919871::1746500704::0::1::::DialoguesLines<>Resource<><>0<>1<><>::
+DialoguesNames.gd::GDScript::5318423197503916274::1746500704::0::1::::DialoguesNames<>Resource<><>0<>1<><>::
+DialoguesVoices.gd::GDScript::8469489743231050260::1746500704::0::1::::DialoguesVoices<>Resource<><>0<>1<><>::
+::res://minigame coleta de lixo/::1746364051
 lixo.gd::GDScript/GDScript::7191489965178300067::1746053520::0::1::::<>Area2D<><>0<>0<><>::
-lixo.tscn::PackedScene/PackedScene::1018521376879231987::1746155257::0::1::::<><><>0<>0<><>::uid://dapu13ekc5n2j::::res://minigame coleta de lixo/lixo.gd<>uid://ctvybelpdh30x::::res://PNG'S/15cdf173-c2f0-43c5-9b9e-6057e5d4eb4f.jpg
-::res://MINIGAME REPLANTIO (progress)/::1746111456
-semente.gd::GDScript/GDScript::2440124611393624138::1745550122::0::1::::<>Area2D<><>0<>0<><>::
-semente.tscn::PackedScene/PackedScene::4308600227308531867::1746111456::0::1::::<><><>0<>0<><>::uid://ba1aq4gu3j1go::::res://MINIGAME REPLANTIO (progress)/semente.gd
-::res://MINIGAME REPLANTIO (progress)/NPC/::1746239578
-icon.svg::CompressedTexture2D/CompressedTexture2D::1831730122166841442::1744295386::1746111456::1::::<><><>0<>0<>864ac75d7a490f4448940c4c6d403ecd<>res://.godot/imported/icon.svg-6a6bc715e229e2395cc8acd8da2e5b05.ctex::
-idle.png::CompressedTexture2D/CompressedTexture2D::7256398206567264554::1744651087::1746111456::1::::<><><>0<>0<>d275a363857b47429b8cb1568cfed35b<>res://.godot/imported/idle.png-93b1d53ffe590dcef1f0140611b44375.ctex::
-::res://NPC'S/::1746239652
-npc2.tscn::PackedScene::1792802945666296315::1746239652::0::1::::<><><>0<>0<><>::uid://dtm7y4rlpxf5a::::res://PNG'S/NPC DANÇANDO/NPC ''DANÇANDO'' 1.png<>uid://dmsjhe8pwwpn8::::res://NPC'S/npc_dialog.gd<>uid://de5r6johj7jjh::::res://PNG'S/NPC DANÇANDO/NPC ''DANÇANDO'' 2.png<>uid://dt1o74o2xkdtk::::res://PNG'S/NPC DANÇANDO/NPC ''DANÇANDO'' 3.png
-npc_dialog.gd::GDScript/GDScript::8039246189584759751::1746155208::0::1::::<>Node2D<><>0<>0<><>::
-::res://NPC'S/Aruanã NPC/::1746155257
-aruanã.gd::GDScript/GDScript::5609543178160839427::1746155247::0::1::::<>Node2D<><>0<>0<><>::
-Aruanã.png::CompressedTexture2D/CompressedTexture2D::6093656677711755218::1746150566::1746150773::1::::<><><>0<>0<>462b48cb2b05418de6f14ebeff0fc243<>res://.godot/imported/Aruanã.png-55d914562cdff98e79a11d1cc1ee8f38.ctex::
-aruanã.tscn::PackedScene/PackedScene::4578175100268774760::1746155257::0::1::::<><><>0<>0<><>::uid://cl6kmehaoegi2::::res://NPC'S/Aruanã NPC/aruanã.gd<>uid://cs22vujn70jag::::res://NPC'S/Aruanã NPC/Aruanã.png<>uid://ctvspb1vvnqu5::::res://NPC'S/Aruanã NPC/Aruanã_02.png
-Aruanã_02.png::CompressedTexture2D/CompressedTexture2D::6150901115793444574::1746150566::1746150773::1::::<><><>0<>0<>4796d4f0271defce0f6d85687b4b6a3f<>res://.godot/imported/Aruanã_02.png-4c223628004b1e3adde567dd7f744c47.ctex::
-::res://NPC'S/HUD_NPC/::1746154066
-hud_npc's.tscn::PackedScene/PackedScene::952816593843559255::1746154066::0::1::::<><><>0<>0<><>::uid://bitjuaydexgya::::res://hud_script.gd
+lixo.tscn::PackedScene/PackedScene::1018521376879231987::1746364051::0::1::::<><><>0<>0<><>::uid://dapu13ekc5n2j::::res://minigame coleta de lixo/lixo.gd<>uid://ctvybelpdh30x::::res://PNG'S/15cdf173-c2f0-43c5-9b9e-6057e5d4eb4f.jpg
+::res://NPCS/::1746408939
+npc2.tscn::PackedScene/PackedScene::1792802945666296315::1746408939::0::1::::<><><>0<>0<><>::uid://dtm7y4rlpxf5a::::res://PNG'S/NPC DANÇANDO/NPC ''DANÇANDO'' 1.png<>uid://dmsjhe8pwwpn8::::res://NPCS/npc_dialog.gd<>uid://de5r6johj7jjh::::res://PNG'S/NPC DANÇANDO/NPC ''DANÇANDO'' 2.png<>uid://dt1o74o2xkdtk::::res://PNG'S/NPC DANÇANDO/NPC ''DANÇANDO'' 3.png
+npc_dialog.gd::GDScript/GDScript::8039246189584759751::1746408929::0::1::::<>Node2D<><>0<>0<><>::
+::res://NPCS/Aruanã NPC/::1746500419
+aruanã.gd::GDScript::2867818343438868866::1746500246::0::1::::<>Node2D<><>0<>0<><>::
+Aruanã.png::CompressedTexture2D/CompressedTexture2D::6093656677711755218::1746150566::1746368905::1::::<><><>0<>0<>8d62f0c53afa6990b4b35dbbfd2410bc<>res://.godot/imported/Aruanã.png-426f2c23898a02d14e3f3deefd95b33e.ctex::
+aruanã.tscn::PackedScene::4578175100268774760::1746500419::0::1::::<><><>0<>0<><>::uid://bg4gsw1y0mehu::::res://NPCS/Aruanã NPC/aruanã.gd<>uid://cs22vujn70jag::::res://NPCS/Aruanã NPC/Aruanã.png<>uid://ctvspb1vvnqu5::::res://NPCS/Aruanã NPC/Aruanã_02.png
+Aruanã_02.png::CompressedTexture2D/CompressedTexture2D::6150901115793444574::1746150566::1746368905::1::::<><><>0<>0<>eed0b9d4cbff872bb2f98dd8dc26e7ef<>res://.godot/imported/Aruanã_02.png-37215c2229b96f517553b8a2c0191cf4.ctex::
+::res://NPCS/HUD_NPC/::1746500418
+hud_npcs.tscn::PackedScene::952816593843559255::1746500418::0::1::::<><><>0<>0<><>::uid://bitjuaydexgya::::res://hud_script.gd
 ::res://PLAYER/::1746154066
 player.gd::GDScript/GDScript::3026999822675149047::1746133542::0::1::::<>Node2D<><>0<>0<><>::
 Player.tscn::PackedScene/PackedScene::6590437344182131035::1746154066::0::1::::<><><>0<>0<><>::uid://bjekila1e242v::::res://PLAYER/player.gd<>uid://db7rgt1i0o21::::res://PNG'S/Cauê de Frente/Cauê.frente.png<>uid://duw1s2umhw5nl::::res://PNG'S/Andando para direita/Andando_direita_1.png<>uid://dsspqh45l3vom::::res://PNG'S/Andando para direita/Andando_direita_2.png<>uid://hsacxxn4m0ab::::res://PNG'S/Andando para direita/Andando_direita_3.png<>uid://cqbvgga1wbk4s::::res://PNG'S/Andando para direita/Andando_direita_4.png<>uid://cw3j8ekbbpi2u::::res://PNG'S/Andando para esquerda/Andando_esquerda_1.png<>uid://bldh40s2qabso::::res://PNG'S/Andando para esquerda/Andando_esquerda_2.png<>uid://biauy0qojwsx5::::res://PNG'S/Andando para esquerda/Andando_esquerda_3.png<>uid://dxp4awrbyduaa::::res://PNG'S/Andando para esquerda/Andando_esquerda_4.png<>uid://dg06jvfr668qc::::res://PNG'S/Costas Parado/Costas.png<>uid://d3c6fylv7risl::::res://PNG'S/Costas andando/Andando_de_Costas_1.png<>uid://pb8ew4e5kj3a::::res://PNG'S/Costas andando/Andando_de_Costas_2.png

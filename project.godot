@@ -16,13 +16,12 @@ config/icon="res://MINIGAME REPLANTIO (progress)/NPC/icon.svg"
 
 [autoload]
 
-hud="*res://NPC'S/HUD_NPC/hud_npc's.tscn"
+hud="*res://NPCS/HUD_NPC/hud_npcs.tscn"
 
 [file_customization]
 
 folder_colors={
-"res://MINIGAME REPLANTIO (progress)/": "orange",
-"res://NPC'S/": "red",
+"res://NPCS/": "red",
 "res://PLAYER/": "blue",
 "res://PNG'S/": "gray",
 "res://minigame coleta de lixo/": "green"
